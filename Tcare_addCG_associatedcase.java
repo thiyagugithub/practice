@@ -130,7 +130,7 @@ public class Tcare_addCG_associatedcase extends Before_After_Login {
 //	@Test(priority = 4)
 	public void logout() throws InterruptedException {
 		Thread.sleep(5000);
-// 		Thread.sleep(8000);
+// 		Thread.sleep(10000);
 		
 		WebElement relogin1=driver.findElement(By.xpath("//span[@data-toggle='modal']"));
 		relogin1.click();
